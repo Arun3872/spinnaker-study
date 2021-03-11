@@ -8,7 +8,7 @@ metadata:
     name: arun-solo-microservice
     namespace: microservices
 spec:
-    replicas: 3
+    replicas: 4
     selector:
         matchLabels:
             run: arun-solo-microservice
